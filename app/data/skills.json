@@ -1,0 +1,41 @@
+[
+    {
+        "title": "first skill",
+        "picture": "app/images/Untitled.jpg"
+
+    },
+    {
+        "title": "second skill",
+        "picture": "app/images/Untitled.jpg"
+
+    },
+    {
+        "title": "third skill",
+        "picture": "app/images/Untitled.jpg"
+
+    },
+    {
+        "title": "fourth skill",
+        "picture": "app/images/Untitled.jpg"
+    },
+    {
+        "title": "fifth skill",
+        "picture": "app/images/Untitled.jpg"
+    },
+    {
+        "title": "sixth skill",
+        "picture": "app/images/Untitled.jpg"
+    },
+    {
+        "title": "seventh skill",
+        "picture": "app/images/Untitled.jpg"
+    },
+    {
+        "title": "eighth skill",
+        "picture": "app/images/Untitled.jpg"
+    },
+    {
+        "title": "ninth skill",
+        "picture": "app/images/Untitled.jpg"
+    }
+]
