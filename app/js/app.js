@@ -8,3 +8,12 @@ var mainPageController = function ($scope, $http){
     });
 
 };
+
+var templateController = function($scope){
+	$scope.templates = [
+		{
+			name: 'mainHeader.html', url: 'templates/mainHeader.html'
+		}
+	];
+	
+}

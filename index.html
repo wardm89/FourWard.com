@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html ng-app="">
 <head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
 	<title>FourWard.com</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="app/css/bootstrap.min.css" rel="stylesheet">
@@ -13,57 +15,48 @@
 		<script src="app/js/app.js"></script>
 </head>
 
-<body ng-controller="mainPageController">
-<div class = "navbar navbar-inverse navbar-static-top minHeader">
-            <div class = "container">
-                               
-                <a href = "#" class = "navbar-brand">FourWard.com</a>
-                               
-                    <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
-                        <span class = "icon-bar"></span>
-                        <span class = "icon-bar"></span>
-                        <span class = "icon-bar"></span>
-                    </button>
-                               
-                <div class = "collapse navbar-collapse navHeaderCollapse">
-                               
-                    <ul class = "nav navbar-nav navbar-right">
-                                       
-                        <li class = "active"><a href = "#">Home</a></li>
-                                                
-                        <li class = "dropdown">
-                                                       
-                            <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">My Work<b class = "caret"></b></a>
-                                <ul class = "dropdown-menu">
-                                    <li><a href="#">stuff</a></li>
-                                </ul>
-                                                
-                        </li>
-						<li><a href = "resume.html">Resume</a></li>
-                        <li><a href = "#">About Me</a></li>
-                        <li><a href = "#">Contact</a></li>
-                                       
-                        </ul>
-                               
-                    </div>
-                               
-            </div>
-        </div>
-		
-
-<div class="container">
-<div class="row ">
-    <div class=" col-xs-6" ng-repeat="skill in sk">
+<body >
 	
-        <div class="skills {{skill.background}}"></div>
-		<h3 class="centered">{{skill.title}}</h3>
-
-		</div>
-    </div>
-</div>
-
-
+    <div ng-include="'app/templates/mainHeader.html'"></div>
+	
+	<div class = "container margin-Top">
 		
+		<div class="row">
+			<div class="mainVideoPadding">
+				<div class = "col-xs-4">
+					<h3 class="centered">Why FourWard.com?</h3>
+					<p>Why FourWard.com? It is very simple I am the fourth ward in my family. Why FourWard.com? It is very simple I am the fourth ward in my family.
+					Why FourWard.com? It is very simple I am the fourth ward in my family.
+					Why FourWard.com? It is very simple I am the fourth ward in my family.</p>
+				</div>
+				<div class = "col-xs-8 centered">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/IpCZ-rRTj9Q" frameborder="0" allowfullscreen></iframe>
+				</div>
+				
+			</div>
+			
+			
+			
+			
+			<div class="mainVideoPadding">
+				<div class = "col-xs-8 centered">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/IpCZ-rRTj9Q" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class = "col-xs-4">
+					<h3 class="centered">What you will find on this page</h3>
+					<p>This is my portfolio page that I have created from scratch entirely by myself. I made this to better showcase my skills and what I have done rather than just putting it on a resume. click <a>here</a> to view my resume.</p>
+					<p>Above in the tabs is the "My Work" section where you can click on to view all of my work that I have done thus far. It also has a few main categories to help with looking through my skills.</p>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+
+		<div ng-include="'app/templates/footer.html'"></div>
 </body>
 
 
