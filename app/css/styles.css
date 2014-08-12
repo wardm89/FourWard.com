@@ -9,9 +9,48 @@
 .skills {
     border: 1px solid black;
     margin-top: 30px;
+	height: 250px;
 }
 
 .skills:hover{
-    border: 1px solid green;
-    box-shadow: 0px 0px 10px #231e1e
+    box-shadow: 0px 0px 10px #231e1e;
+	cursor: pointer;
 }
+
+.Web-Background {
+	background-image: url('Web-Background.jpg');
+	background-size: 550px 250px;
+	background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.Game-Background {
+	background-image: url('Game-Background.jpg');
+	background-size: 550px 250px;
+	background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.FX-Background {
+	background-image: url('FX-Background.jpg');
+	background-size: 550px 250px;
+	background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.Photoshop-Background {
+	background-image: url('Photoshop-Background.jpg');
+	background-size: 550px 250px;
+	background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.YouTube-Background {
+	background-image: url('YouTube-Background.jpg');
+	background-size: 550px 250px;
+	background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+

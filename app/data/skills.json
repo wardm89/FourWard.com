@@ -1,32 +1,35 @@
 [
     {
-        "title": "first skill"
+        "title": "Website Development",
+        "picture": "",
+		"background": "Web-Background"
 
     },
     {
-        "title": "second skill"
+        "title": "Video Game Development",
+        "picture": "app/images/Untitled.jpg",
+		"background": "Game-Background"
 
     },
     {
-        "title": "third skill"
+        "title": "Video Editing/FX",
+        "picture": "app/images/Untitled.jpg",
+		"background": "FX-Background"
 
     },
     {
-        "title": "fourth skill"
+        "title": "PhotoShop/Art",
+        "picture": "app/images/Untitled.jpg",
+		"background": "Photoshop-Background"
     },
     {
-        "title": "fifth skill"
+        "title": "YouTube Commentaries",
+        "picture": "app/images/Untitled.jpg",
+		"background": "YouTube-Background"
     },
     {
-        "title": "sixth skill"
-    },
-    {
-        "title": "seventh skill"
-    },
-    {
-        "title": "eighth skill"
-    },
-    {
-        "title": "ninth skill"
+        "title": "sixth skill",
+        "picture": "app/images/Untitled.jpg",
+		"background": "grey"
     }
 ]

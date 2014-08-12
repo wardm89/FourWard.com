@@ -50,19 +50,13 @@
             </div>
         </div>
 		
-<div class="container">
-    search skills <input type="text" ng-model="results"/>{{results}}
-</div>
 
 <div class="container">
 <div class="row ">
-    <div class=" col-xs-4 " ng-repeat="skill in sk | filter: results">
-        <div class="skills">
-            <h3>{{skill.title}}</h3>
-
-        </div>
-
-
+    <div class=" col-xs-6" ng-repeat="skill in sk">
+	
+        <div class="skills {{skill.background}}"></div>
+		<h3 class="centered">{{skill.title}}</h3>
 
 		</div>
     </div>
