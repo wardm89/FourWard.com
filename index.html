@@ -19,8 +19,18 @@
 	
     <div ng-include="'app/templates/mainHeader.html'"></div>
 	<div class = "container margin-Top centered">
-		<img src="http://placehold.it/800x350"/>
+		<div ng-controller="MainController" class="slideshow" ng-switch='slideshow' ng-animate="'animate'">
+			<h1> Welcome to FourWard.com!</h1>
+			<div class="slider-content" ng-switch-when='1'>
+				<img src="app/images/Web-Background.jpg" /></div>
+			<div class="slider-content" ng-switch-when='2'>
+				<img src="app/images/Game-Background.jpg" /></div>
+			<div class="slider-content" ng-switch-when='3'>
+				<img src="app/images/FX-Background.jpg" /></div>
+		</div>
 	</div>
+	<hr class="container"/>
+
 	<div class = "container">
 		
 		<div class="row">
